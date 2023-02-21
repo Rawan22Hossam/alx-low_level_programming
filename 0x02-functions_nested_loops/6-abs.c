@@ -12,7 +12,7 @@ if (c < 0)
 {
 int abs_val;
 
-abs_value = c * -1;
+abs_val = c * -1;
 return (abs_val);
 }
 return (c);
