@@ -6,7 +6,7 @@
  * Return: empty
  */
 
-void print_square(int n)
+void print_square(int size)
 {
 int x, y;
 
