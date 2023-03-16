@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - ...
- * @s1: ...
- * @s2: ...
- * @n: ...
- * Return: ...
+ * string_nconcat - concat string
+ * @s1: first string
+ * @s2: seconf string
+ * @n: integer number
+ * Return: string str
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
