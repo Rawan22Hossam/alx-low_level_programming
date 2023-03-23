@@ -14,7 +14,7 @@ va_list varlist;
 unsigned int i;
 char *str;
 
-va_start(valist, n);
+va_start(varlist, n);
 
 for (i = 0; i < n; i++)
 {
