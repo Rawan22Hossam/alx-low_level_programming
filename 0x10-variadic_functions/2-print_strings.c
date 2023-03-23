@@ -18,7 +18,7 @@ va_start(varlist, n);
 
 for (i = 0; i < n; i++)
 {
-str = va_arg(valist, char *);
+str = va_arg(varlist, char *);
 if (str)
 printf("%s", str);
 else
@@ -28,5 +28,5 @@ if (separator)
 printf("%s", separator);
 }
 printf("\n");
-va_end(valist);
+va_end(varlist);
 }
